@@ -12,7 +12,7 @@ html {
     body {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    color: O#0A1128;
+    color: #0A1128;
     line-height: 1.5;
     }
     h1, h2, h3 {
@@ -41,11 +41,11 @@ html {
         background-image: url('../images/main-bg.svg ');
         background-size: cover;
         background-position: center center;
-        color: I#FFFFFF;
+        color: #FFFFFF;
     }
         .white-bg{
         background: #FFFFFF;
-        color: O#0A1128;
+        color: #0A1128;
         }
         .main-content{
         max-width: 120rem;
@@ -81,7 +81,7 @@ html {
         
 .menu h1 {
 font-size: 2.3rem;
-color: O#0A1128;
+color: #0A1128;
 }
 .menu h1 a{
 color: inherit;
@@ -94,7 +94,7 @@ display: flex;
 display: block3;
 padding: 2rem;
 font-size: 1.8rem;
-color: O#0A1128;
+color: #0A1128;
 position: relative;
 }
 .menu ul li a::after {
@@ -166,7 +166,7 @@ intro-content {
         padding-left: 5rem;
         padding-bottom: 2rem;
         }
-        -grid h3::before {
+        .grid h3::before {
         counter-increment: grid-counter;
         content: counter(grid-counter);
         position: absolute;
@@ -178,7 +178,7 @@ intro-content {
         }
         .gallery-img {
             width: 100%;
-            max-width: 36 rem;
+            max-width: 36rem;
             max-height: 36rem;
             overflow: hidden;
             }
@@ -212,14 +212,14 @@ intro-content {
                 }
                 .form-group input, .form-group textarea {
                 border: none;
-                background: I#FFFFFF;
+                background: #FFFFFF;
                 padding: 1.5rem 2rem;
                 width: 100%;
                 font-size: 3rem;
                 outline: none;
                 }
                 .form-group input:focus, .form-group textarea:focus {
-                box-shadow: 0 0 10px 2px Ocrimson;
+                box-shadow: 0 0 10px 2px crimson;
                 }
                 .form-group button {
                     border: 0.5rem solid #FFFFFF;
@@ -242,10 +242,10 @@ intro-content {
                         font-size: 1.6rem;
                         }
                         .footer a {
-                        color: O#0A1128;
+                        color: #0A1128;
                         }
                         .heart {
-                        color: Ocrimson;
+                        color: crimson;
                         }
                         .footer p {
                         margin: 0;
@@ -262,8 +262,8 @@ intro-content {
                         justify-content: center;
                         align-items: center;
                         border-radius: 50%;
-                        color: O#0A1128;
+                        color: #0A1128;
                         transform: rotate(-90deg);
-                        border: 0.1lrem solid 0#0A1128;
+                        border: 0.1lrem solid #0A1128;
                         }
 
